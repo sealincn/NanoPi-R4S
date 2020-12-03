@@ -14,9 +14,9 @@ jobs:
     steps:
 
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@main
         with:
-          ref: master
+          ref: main
 
       - name: Initialize Environment
         env:
@@ -171,7 +171,7 @@ jobs:
           cp code/friendlywrt/.config ./artifact/
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@master
+        uses: actions/upload-artifact@main
         with:
           name: FriendlyWrt_NanoPi-R4S RK3399 v19.07.4
           path: ./artifact/
