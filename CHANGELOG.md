@@ -1,5 +1,6 @@
 ## 20201203
 * Switch to R4S
+* Update Clash binary
 
 ## 20201102
 * 常规更新
